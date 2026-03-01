@@ -1,17 +1,16 @@
 #!/usr/bin/env python
 # coding: utf-8
+"""
+Airbnb Investment Analysis
+Author: Joshua Winer
 
-# Use "realtor_data.csv" to answer the following questions  
-# Review the code we have learned in class when completing these questions
-
-# In[52]:
-
+This script performs data cleaning, exploratory analysis,
+and regression modeling to identify drivers of Airbnb
+cash-on-cash investment returns.
+"""
 
 import pandas as pd
 import matplotlib.pyplot as plt
-
-
-# In[54]:
 
 
 url = 'https://drive.google.com/uc?id=1UZuosGdSc8CSVofDBNDx6Ju_YtkwTL56'
@@ -20,15 +19,6 @@ df = pd.read_csv(url)
 df.head(30)
 
 df.info()
-
-
-# 12. (Open-Ended Analysis) As a data analyst helping a client select a property for Airbnb investment,   
-# develop a data-driven search strategy. Use the available dataset to:  
-# 
-#     Analyze relationships between property characteristics and potential returns  
-#     Provide recommendations backed by statistical analysis  
-#     Include visualizations and statistical evidence (descriptive statistics / regression) to support your recommendations.  
-#     At least one regression analysis is required.
 
 # In[30]:
 
